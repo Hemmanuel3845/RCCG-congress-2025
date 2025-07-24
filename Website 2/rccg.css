@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* BODY SECTION */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    width: 100%;
+    height: 115vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)10%, rgba(0, 0, 0, 0.5)10%), url('image/image1.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* HEADER SECTION */
+
+.navbar {
+    width: 1500px;
+    height: 80px;
+    margin: auto;
+}
+
+.icon {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.logo {
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+    cursor: pointer;
+}
+
+.header {
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-left: 62px;
+    margin-right: 30px;
+    margin-top: 20px;
+    padding-left: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff7200;
+}
+
+/* PARAGRAPH SECTION */
+
+.context {
+    width: 1000px;
+    height: auto;
+    margin-top: 80px;
+    margin-right: auto;
+    color: white;
+    position: relative;
+}
+
+.context .para{
+    /* padding-left: 5px; */
+    padding-bottom: 25px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.context .h1 {
+    font-size: 100px;
+    font-weight: bold;
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.context .theme {
+    color: #ff7200;
+    font-weight: bold;
+}
+
+/* COUNTDOWN SECTION */
+.content {
+    position: absolute;
+    top: 120px;
+    left: 970px;
+    border-radius: 10px;
+    padding: 25px;
+    width: 350px;
+    background-color: rgba(105, 244, 12, 5.5);
+    color: white;
+    text-align: center;
+}
+
+.content .timer {
+    font-size:  2em;
+    background-color: white;
+    border: 2px solid white;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #0ff;
+    padding: 20px;
+    color: blue;
+    margin-top: 20px;
+}
+
+.content .timer span {
+    color: #ff7200;
+}
+
+/* EVENT SECTION */
+
+.event {
+    position: absolute;
+    top: 400px;
+    left: 970px;
+    width: 350px;
+    height: 200px;
+    background-color: rgba(105, 244, 12, 5.5);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}   
+
+ul {
+    list-style: none;
+    padding: 0;
+}   
+
+ul li {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: blue;
+}
+/* GUESSING GAME SECTION */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    margin-top: 100px;
+    margin-bottom: 130px;
+    height: 10vh;
+    flex-direction: column;
+}
+
+.box {
+    background-color: #ff7200;
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: blue;
+}
+
+.box h2 {
+    color: blue;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.box .input {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    color: blue;
+    border: 2px solid #ff7200;
+    padding: 5px;
+
+}
+
+.box .btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #ff7200;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.box .btn:hover {
+    background-color: white;
+    color: #ff7200;
+}
+
+.box p {
+    margin-top: 10px;
+    color: blue;
+    font-size: 16px;
+}
+        /* FOOTER SECTION */
+.footer {
+    width: 100%;
+    height: 20px;
+    /* background-color: #d3e7e7; */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)10%, rgba(0, 0, 0, 0.5)10%), url('image/image1.jpeg');
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    position: relative;
+}
